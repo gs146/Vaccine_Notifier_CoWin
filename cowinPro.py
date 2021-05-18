@@ -72,7 +72,7 @@ def vaccine_notifer():
     else:
         messageFor45 = messageFor45 + "*No slot available for 45 and above age*"
 
-    base_url = 'https://api.telegram.org/bot1845865793:AAF7slwdglakV31F5Q85JFAVf-KuyPCXIQ0/sendMessage?chat_id=-518514918&text={0}'.format(messageFor45)
+    base_url = 'https://api.telegram.org/botYOUR_BOT_API/sendMessage?chat_id=YOUR_CHAT_ID_&text={0}'.format(messageFor45)
     print("Response:",requests.get(base_url))
     print("Message Sent for 45+!")
 
@@ -88,7 +88,7 @@ def vaccine_notifer():
     else:
         messageFor18 = messageFor18 + "*No slot available for 18 and above age*"
 
-    base_url = 'https://api.telegram.org/bot1845865793:AAF7slwdglakV31F5Q85JFAVf-KuyPCXIQ0/sendMessage?chat_id=-518514918&text={0}'.format(messageFor18)
+    base_url = 'https://api.telegram.org/botYOUR_BOT_API/sendMessage?chat_id=YOUR_CHAT_ID_&text={0}'.format(messageFor18)
     print("Response:",requests.get(base_url))
     print("Message Sent for 18+!")
 
